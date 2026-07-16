@@ -1,0 +1,17 @@
+# MLflow local tracking artifacts -- generated on every run, never commit
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Synthetic dataset -- regenerate with generate_synthetic_dataset.py
+02_image_similarity_eval/synthetic_dataset/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
